@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html >
+	<html lang="PT-BR"></html>
+<head>
+  <meta charset="UTF-8">
+
+  <meta http-equiv="Content-Language" content="pt-br">
+  <title>IT-One GAME OF TOWERS</title>
+  <link rel="stylesheet" href="dist/css/style2.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"/>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="dist/js/script.js" ></script>
+	<script  src="dist/js/index.js"></script>
+	</head>
+
+
+<body>
+  <div class="login">
+	  <h1><img class="logo" src="dist/img/Logo3.png"/></h1>
+   <h1>iGOT</h1>
+    <form id="login"  method="post" action="dist/php/authentication.php">
+    <p>
+    <label >Guerreiro</label>
+    	<input id="username" type="text" name="login" placeholder="Nome" required="required" />
+		</p> <label>Senha</label>
+        <input id="senha" type="password" name="senha" placeholder="Senha" required="required" />
+        <p></p>
+        <button type="submit" id="login_button" class="btn btn-primary btn-block btn-large" onClick="ValidaCredenciais()">Entrar</button>
+    </form>
+    <p></p>
+    <div class= "mensagem" id="msg">
+    </div>
+</div>
+</body>
+</html>
