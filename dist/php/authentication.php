@@ -29,7 +29,7 @@ function valida_ldap($server, $login, $senha)
 			if (valida_ldap($server, $login, $senha)) 
 			{
 				echo "<script>altert('usuário $login autenticado');history.back();</script>";
-				header('Location: /igot/news.html');
+				header('Location: /igot/dist/php/connection.php');
 			}
 			else 
 			{

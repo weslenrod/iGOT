@@ -27,7 +27,7 @@
 		</p> <label>Senha</label>
         <input id="senha" type="password" name="senha" placeholder="Senha" required="required" />
         <p></p>
-        <button type="submit" id="login_button" class="btn btn-primary btn-block btn-large" onClick="ValidaCredenciais()">Entrar</button>
+        <button type="submit" id="login_button" class="btn btn-primary btn-block btn-large" onSubmit="return ValidaCredenciais(this,msgErro)">Entrar</button>
     </form>
     <p></p>
     <div class= "mensagem" id="msg">
