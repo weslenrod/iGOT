@@ -34,9 +34,6 @@ function valida_ldap($server, $login, $senha)
 			else 
 			{
 				echo "<script>alert('usuário ou senha inválida');history.back();</script>";
-				//echo "<div id='mensagem'>.mensagem 123</html>";
-				//echo '<script type="text/javascript">','($login,$senha);','</script>';
-				//echo "$login  $senha";
 			}
 		 							
 
